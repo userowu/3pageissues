@@ -11,6 +11,10 @@ body {
 
 }
 
+p {
+  color:white;
+}
+
 h1 {
   background-color: white;
   letter-spacing: 4px;
@@ -21,6 +25,18 @@ h1 {
   border-style: inset;
   border-width: 5px;
   border-color: gray;
+}
+
+h1:hover {
+  color:red;
+
+}
+
+h5 {
+  text-decoration-color:blue  ;
+  text-decoration:underline;
+  color:white;
+
 }
 
 #logo {
@@ -45,10 +61,10 @@ nav {
   display:block;
 }
 
-ul {
+u1 {
   margin: 0;
   list-style-type: none;
-  position: fixed;
+  position: absolute;
   top: 0;
   padding: 30px;
   padding-top: 30px;
@@ -79,10 +95,9 @@ li {
 }
 
 
-
 #girls {
   display: inline-block;
-  margin:20px;
+  margin:10px;
   text-align:center;
   width:450px;
 }
