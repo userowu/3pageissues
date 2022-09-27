@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Francois+One&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Press+Start+2P&family=VT323&display=swap');
+
+
+
+body {
+  background-image: url("reverse_bg3.png");
+  background-size:cover;
+  font-family: 'Press Start 2P', cursive;
+  display: block;
+  margin: 8px;
+
+}
+
+h1 {
+  background-color: white;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #953553;
+  padding: 15px;
+  font-size: 24px;
+  border-style: inset;
+  border-width: 5px;
+  border-color: gray;
+}
+
+#logo {
+  width:700px;
+  padding:15px;
+}
+
+#tabs {
+  text-align:center;
+  font-family: 'Press Start 2P';
+  text-decoration: none;
+  background-color: #ff2079;
+  color: white;
+  font-size: 19px;
+  padding: 15px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+nav {
+  display:block;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px
+  border-color: white;
+}
+
+li {
+  line-height: 3;
+
+}
+
+.Container {
+  padding-top: 50px;
+  margin-top: 0px;
+  /** margin-left: 100px;
+  margin-top: 0px;
+  margin-right: 20px;
+  width: 55%; **/
+  box-sizing: border-box;
+
+}
+
+#page1 {
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 30px;
+}
+
+
+
+#girls {
+  display: inline-block;
+  margin:20px;
+  text-align:center;
+  width:450px;
+}
+
+#girlsmain {
+  display: inline-block;
+  margin:20px;
+  text-align:center;
+  width:800px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
